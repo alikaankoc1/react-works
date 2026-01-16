@@ -24,6 +24,12 @@ function App() {
     console.log("new data ", response.data);
   };
 
+  // delete silme
+  const deleteUserById = async (userId) => {
+    const deleteResponse = await axios.delete(`${BASE_URL}/users/${userId}`);
+    console.log("silininen data", deleteResponse.data);
+  };
+
   useEffect(() => {
     getAllUsers();
     const newUser = {
@@ -38,6 +44,8 @@ function App() {
       password: "wolwes",
       class: "98",
     });
+
+    deleteUserById("d410");
   }, []);
 
   return <div></div>;
