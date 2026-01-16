@@ -4,7 +4,7 @@ import axios from "axios";
 const BASE_URL = "http://localhost:3005";
 function App() {
   const getAllUsers = async () => {
-    const response = await axios.get(BASE_URL + "/user");
+    const response = await axios.get(BASE_URL + "/users");
     console.log(response);
   };
   useEffect(() => {

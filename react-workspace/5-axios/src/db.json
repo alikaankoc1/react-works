@@ -1,10 +1,16 @@
 {
-    "user":[
+    "users":[
         {
             "id":1,
-            "username": "ali",
-            "password": "xx",
-            "class": "85"
+            "username": "Premeair Leauge",
+            "password": "Chelsea",
+            "class": "5"
+        },
+          {
+            "id":2,
+            "username": "Premeair Leauge",
+            "password": "Manchester United",
+            "class": "12"
         }
     ]
 
