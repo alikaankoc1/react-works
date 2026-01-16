@@ -1,18 +1,40 @@
 {
-    "users":[
-        {
-            "id":1,
-            "username": "Premeair Leauge",
-            "password": "Chelsea",
-            "class": "5"
-        },
-          {
-            "id":2,
-            "username": "Premeair Leauge",
-            "password": "Manchester United",
-            "class": "12"
-        }
-    ]
-
-    
+  "users": [
+    {
+      "id": "1",
+      "username": "Premeair Leauge",
+      "password": "Chelsea",
+      "class": "5"
+    },
+    {
+      "id": "2",
+      "username": "Premeair Leauge",
+      "password": "Manchester United",
+      "class": "12"
+    },
+    {
+      "id": "750f",
+      "username": "Premeair Leauge",
+      "password": "Arsenal",
+      "class": "18"
+    },
+    {
+      "id": "7a9a",
+      "username": "Premeair Leauge",
+      "password": "Arsenal",
+      "class": "18"
+    },
+    {
+      "id": "193f",
+      "username": "Premeair Leauge",
+      "password": "Arsenal",
+      "class": "18"
+    },
+    {
+      "id": "0ee3",
+      "username": "Premeair Leauge",
+      "password": "Arsenal",
+      "class": "18"
+    }
+  ]
 }

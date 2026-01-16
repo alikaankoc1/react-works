@@ -7,9 +7,22 @@ function App() {
     const response = await axios.get(BASE_URL + "/users");
     console.log(response);
   };
+
+  const createUser = async (newUser) => {
+    const response = await axios.post(`${BASE_URL}/users`, newUser);
+    console.log("response", response.data);
+  };
+
   useEffect(() => {
     getAllUsers();
+    const newUser = {
+      username: "Premeair Leauge",
+      password: "Arsenal",
+      class: "18",
+    };
+    createUser(newUser);
   }, []);
+
   return <div></div>;
 }
 
